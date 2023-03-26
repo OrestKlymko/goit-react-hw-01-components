@@ -1,0 +1,18 @@
+.transactionHistory{
+    background-color:rgb(238, 198, 137);
+}
+
+.test{
+    background-color:darkkhaki;
+    text-align: center;
+}
+
+th,
+td{
+    border: 1px solid black;
+}
+
+td{
+    text-align: center;
+    padding: 5px;
+}
