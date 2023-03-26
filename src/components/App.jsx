@@ -23,7 +23,7 @@ export const App = () => {
       }}
     >
       <Profile avatar={user.avatar} location={user.location} stats = {user.stats} tag={user.tag} username={user.username}/>
-      <Statistic title="" data={data}/>
+      <Statistic title="Upload stats" data={data}/>
       <ul className="friend-list">
       {
         friends.map(({avatar,name,isOnline,id}) => <li className={cssFriend.list} key={id}><FriendList avatar={avatar} name={name} isOnline={isOnline} /></li>)
