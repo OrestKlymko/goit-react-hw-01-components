@@ -16,12 +16,10 @@ export const App = () => {
 
     <div
       style={{
-        height: '100vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
+        flexDirection: 'column'
       }}
     >
       <Profile avatar={user.avatar} location={user.location} stats = {user.stats} tag={user.tag} username={user.username}/>
